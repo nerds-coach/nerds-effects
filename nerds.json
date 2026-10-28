@@ -1,5 +1,9 @@
 {
   "app": "effectcraft",
   "upstream": "storytold/effectcraft",
-  "name": "NERDS Effects"
+  "name": "NERDS Effects",
+  "upstream_name": "EffectCraft",
+  "brand": {
+    "docs/brand/artcraft-mark.png": "nerds-mark-1024.png"
+  }
 }
