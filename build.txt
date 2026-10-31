@@ -1,0 +1,198 @@
+NERDS Effects 0.19.0 for Windows x64 (x86_64-pc-windows-msvc)
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[92m    Updating[0m crates.io index
+[1m[92m    Updating[0m git repository `https://github.com/storytold/filmcraft`
+[1m[92m    Updating[0m git repository `https://github.com/storytold/craft-libs`
+[1m[93mwarning[0m: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[93mwarning[0m: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate graph
+[1m[96mhelp[0m: Check that the patched package version and available features are compatible
+      with the dependency requirements. If the patch has a different version from
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabled.
+[1m[92m Downloading[0m crates ...
+[1m[92m  Downloaded[0m byteorder v1.5.0
+[1m[92m  Downloaded[0m candle-nn v0.9.2
+[1m[92m  Downloaded[0m candle-core v0.9.2
+[1m[92m  Downloaded[0m dyn-stack v0.13.2
+[1m[92m  Downloaded[0m dyn-stack-macros v0.1.3
+[1m[92m  Downloaded[0m float8 v0.6.1
+[1m[92m  Downloaded[0m gemm v0.19.0
+[1m[92m  Downloaded[0m gemm-c32 v0.19.0
+[1m[92m  Downloaded[0m gemm-c64 v0.19.0
+[1m[92m  Downloaded[0m gemm-f32 v0.19.0
+[1m[92m  Downloaded[0m gemm-f64 v0.19.0
+[1m[92m  Downloaded[0m gemm-f16 v0.19.0
+[1m[92m  Downloaded[0m gemm-common v0.19.0
+[1m[92m  Downloaded[0m num_cpus v1.17.0
+[1m[92m  Downloaded[0m ppv-lite86 v0.2.21
+[1m[92m  Downloaded[0m rand v0.9.5
+[1m[92m  Downloaded[0m rand_chacha v0.9.0
+[1m[92m  Downloaded[0m rand_core v0.9.5
+[1m[92m  Downloaded[0m rand_distr v0.5.1
+[1m[92m  Downloaded[0m roxmltree v0.21.2
+[1m[92m  Downloaded[0m safetensors v0.7.0
+[1m[92m  Downloaded[0m seq-macro v0.3.6
+[1m[92m  Downloaded[0m typed-path v0.12.4
+[1m[92m  Downloaded[0m zip v7.4.0
+[1m[92m  Downloaded[0m zip v9.1.3
+[1m[92m   Compiling[0m getrandom v0.3.4
+[1m[92m   Compiling[0m ppv-lite86 v0.2.21
+[1m[92m   Compiling[0m stable_deref_trait v1.2.1
+[1m[92m   Compiling[0m serde_json v1.0.154
+[1m[92m   Compiling[0m yoke v0.8.3
+[1m[92m   Compiling[0m zerovec v0.11.8
+[1m[92m   Compiling[0m effectcraft-geom v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\geom)
+[1m[92m   Compiling[0m effectcraft-color v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\color)
+[1m[92m   Compiling[0m tinystr v0.8.4
+[1m[92m   Compiling[0m icu_locale_core v2.3.0
+[1m[92m   Compiling[0m rand_core v0.9.5
+[1m[92m   Compiling[0m rand_chacha v0.9.0
+[1m[92m   Compiling[0m rand v0.9.5
+[1m[92m   Compiling[0m zerotrie v0.2.5
+[1m[92m   Compiling[0m rand_distr v0.5.1
+[1m[92m   Compiling[0m half v2.7.1
+[1m[92m   Compiling[0m exr v1.74.2
+[1m[92m   Compiling[0m tiff v0.11.3
+[1m[92m   Compiling[0m icu_provider v2.3.1
+[1m[92m   Compiling[0m effectcraft-time v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\time)
+[1m[92m   Compiling[0m effectcraft-keyframe v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\keyframe)
+[1m[92m   Compiling[0m potential_utf v0.1.6
+[1m[92m   Compiling[0m effectcraft-raster v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\raster)
+[1m[92m   Compiling[0m hashbrown v0.16.1
+[1m[92m   Compiling[0m image v0.25.10
+[1m[92m   Compiling[0m icu_collections v2.3.0
+[1m[92m   Compiling[0m windows-sys v0.61.2
+[1m[92m   Compiling[0m dyn-stack-macros v0.1.3
+[1m[92m   Compiling[0m dyn-stack v0.13.2
+[1m[92m   Compiling[0m effectcraft-segment v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\segment)
+[1m[92m   Compiling[0m seq-macro v0.3.6
+[1m[92m   Compiling[0m filmcraft-bitstream v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m gemm-common v0.19.0
+[1m[92m   Compiling[0m naga v30.0.1
+[1m[92m   Compiling[0m icu_properties v2.3.0
+[1m[92m   Compiling[0m effectcraft-project v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\project)
+[1m[92m   Compiling[0m icu_normalizer v2.3.0
+[1m[92m   Compiling[0m gpu-allocator v0.28.0
+[1m[92m   Compiling[0m effectcraft-path v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\path)
+[1m[92m   Compiling[0m wgpu-naga-bridge v30.0.1
+[1m[92m   Compiling[0m effectcraft-track v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\track)
+[1m[92m   Compiling[0m wgpu-hal v30.0.1
+[1m[92m   Compiling[0m effectcraft-effects v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\effects)
+[1m[92m   Compiling[0m effectcraft-text v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\text)
+[1m[92m   Compiling[0m filmcraft-time v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-color v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-frame v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m wgpu-core-deps-windows-linux-android v30.0.1
+[1m[92m   Compiling[0m filmcraft-dng v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-media v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m wgpu-core v30.0.1
+[1m[92m   Compiling[0m gemm-f32 v0.19.0
+[1m[92m   Compiling[0m effectcraft-model v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\model)
+[1m[92m   Compiling[0m roxmltree v0.21.2
+[1m[92m   Compiling[0m effectcraft-render v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\render)
+[1m[92m   Compiling[0m wgpu v30.0.1
+[1m[92m   Compiling[0m gemm-f16 v0.19.0
+[1m[92m   Compiling[0m gemm-c64 v0.19.0
+[1m[92m   Compiling[0m gemm-c32 v0.19.0
+[1m[92m   Compiling[0m gemm-f64 v0.19.0
+[1m[92m   Compiling[0m typed-path v0.12.4
+[1m[92m   Compiling[0m zip v7.4.0
+[1m[92m   Compiling[0m gemm v0.19.0
+[1m[92m   Compiling[0m safetensors v0.7.0
+[1m[92m   Compiling[0m float8 v0.6.1
+[1m[92m   Compiling[0m memmap2 v0.9.11
+[1m[92m   Compiling[0m filmcraft-geom v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m byteorder v1.5.0
+[1m[92m   Compiling[0m num_cpus v1.17.0
+[1m[92m   Compiling[0m candle-core v0.9.2
+[1m[92m   Compiling[0m filmcraft-project v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m effectcraft-svg v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\svg)
+[1m[92m   Compiling[0m filmcraft-cfb v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-interchange v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m candle-nn v0.9.2
+[1m[92m   Compiling[0m effectcraft-pdf v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\pdf)
+[1m[92m   Compiling[0m tempfile v3.27.0
+[1m[92m   Compiling[0m idna_adapter v1.2.2
+[1m[92m   Compiling[0m winapi-util v0.1.11
+[1m[92m   Compiling[0m effectcraft-psd v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\psd)
+[1m[92m   Compiling[0m same-file v1.0.6
+[1m[92m   Compiling[0m idna v1.1.0
+[1m[92m   Compiling[0m effectcraft-sam2 v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\sam2)
+[1m[92m   Compiling[0m effectcraft-interchange v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\interchange)
+[1m[92m   Compiling[0m effectcraft-lottie v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\lottie)
+[1m[92m   Compiling[0m boa_parser v0.22.0
+[1m[92m   Compiling[0m url v2.5.8
+[1m[92m   Compiling[0m effectcraft-engine v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\engine)
+[1m[92m   Compiling[0m icu_locale_fallback v2.3.0
+[1m[92m   Compiling[0m filmcraft-prores v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-aac v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-isobmff v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m boa_engine v0.22.0
+[1m[92m   Compiling[0m icu_provider_adapters v2.3.0
+[1m[92m   Compiling[0m webbrowser v1.2.4
+[1m[92m   Compiling[0m arboard v3.6.1
+[1m[92m   Compiling[0m rustls-platform-verifier v0.7.1
+[1m[92m   Compiling[0m icu_plurals v2.3.0
+[1m[92m   Compiling[0m icu_decimal v2.3.0
+[1m[92m   Compiling[0m filmcraft-mpa v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-dnx v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-apv v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-av1 v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-h264 v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-vp9 v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-hevc v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m icu_provider_blob v2.3.0
+[1m[92m   Compiling[0m filmcraft-mpeg2v v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-mpegts v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-vp8 v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-ac3 v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-opus v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-ogg v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-avi v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-matroska v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m filmcraft-mxf v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m ureq v3.5.0
+[1m[92m   Compiling[0m filmcraft-codecs v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=92d392cff132eaf53e13afff77f38b5c11b73aa0#92d392cf)
+[1m[92m   Compiling[0m zip v9.1.3
+[1m[92m   Compiling[0m egui-wgpu v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m egui-winit v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m effectcraft-ui-egui v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\ui-egui)
+[1m[92m   Compiling[0m filmcraft-h264enc v0.8.0 (https://github.com/storytold/filmcraft?rev=09aaf9bf15d510eda1c413c0ccabb1d7e08b41c5#09aaf9bf)
+[1m[92m   Compiling[0m verifysign v1.0.1
+[1m[92m   Compiling[0m effectcraft-hevcenc v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\hevcenc)
+[1m[92m   Compiling[0m effectcraft-vp9enc v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\vp9enc)
+[1m[92m   Compiling[0m effectcraft-av1enc v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\av1enc)
+[1m[92m   Compiling[0m effectcraft-opusenc v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\opusenc)
+[1m[92m   Compiling[0m craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev=04aa1703b32d299e54f78fcde4182f2b393a9116#04aa1703)
+[1m[92m   Compiling[0m craft-ui v0.1.0 (https://github.com/storytold/craft-libs?rev=92d392cff132eaf53e13afff77f38b5c11b73aa0#92d392cf)
+[1m[92m   Compiling[0m effectcraft-export v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\export)
+[1m[92m   Compiling[0m eframe v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+[1m[92m   Compiling[0m effectcraft-media v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\media)
+[1m[92m   Compiling[0m effectcraft-plugin v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\plugin)
+[1m[92m   Compiling[0m craft-quit v0.1.0 (https://github.com/storytold/craft-libs?rev=92d392cff132eaf53e13afff77f38b5c11b73aa0#92d392cf)
+[1m[92m   Compiling[0m effectcraft-gpu v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\gpu)
+[1m[92m   Compiling[0m effectcraft-script v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\script)
+[1m[92m   Compiling[0m effectcraft-expr v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\expr)
+[1m[92m   Compiling[0m effectcraft-host v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\host)
+[1m[92m   Compiling[0m effectcraft v0.19.0 (D:\a\nerds-effects\nerds-effects\apps\effectcraft)
+[1m[92m   Compiling[0m rfd v0.17.2
+[1m[92m   Compiling[0m effectcraft-automation v0.19.0 (D:\a\nerds-effects\nerds-effects\crates\automation)
+[1m[92m   Compiling[0m effectcraft-cli v0.19.0 (D:\a\nerds-effects\nerds-effects\apps\effectcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 25m 56s
+ok effectcraft.exe: x64, PE subsystem 2
+ok effectcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-effects\nerds-effects\target\windows-package\x64\effectcraft.exe, D:\a\nerds-effects\nerds-effects\target\windows-package\x64\effectcraft-cli.exe
+==> wix build
+PASS EffectCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-effects\nerds-effects\dist\release\effectcraft-0.19.0-windows-x64.msi
+==> effectcraft-cli --version
+effectcraft-cli 0.19.0
+
+[32;1mName                                       [0m[32;1m   Length[0m
+[32;1m----                                       [0m [32;1m  ------[0m
+effectcraft-0.19.0-windows-x64.msi          60747776
+effectcraft-0.19.0-windows-x64-portable.zip 80840053
+
