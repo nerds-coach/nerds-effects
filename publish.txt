@@ -1,0 +1,9 @@
+total 299928
+-rw-r--r-- 1 runner runner      425 Nov 18 19:27 SHA256SUMS.txt
+-rw-r--r-- 1 runner runner 80088317 Nov 18 19:27 effectcraft-0.24.1-macos-universal.dmg
+-rw-r--r-- 1 runner runner 85422633 Nov 18 19:27 effectcraft-0.24.1-windows-x64-portable.zip
+-rw-r--r-- 1 runner runner 64266240 Nov 18 19:27 effectcraft-0.24.1-windows-x64.msi
+-rw-r--r-- 1 runner runner 77338684 Nov 18 19:27 effectcraft-cli-0.24.1-macos-universal.zip
+6026 /home/runner/work/_temp/notes.md
+https://github.com/nerds-coach/nerds-effects/releases/tag/untagged-877442d6c5c16cea4e07
+https://github.com/nerds-coach/nerds-effects/releases/tag/v0.24.1

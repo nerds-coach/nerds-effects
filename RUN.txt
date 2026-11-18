@@ -1,0 +1,3 @@
+run: https://github.com/nerds-coach/nerds-effects/actions/runs/44347882758
+commit: 52a9c817aee2d4badb0ea7d5c2d6687d3a629cc7
+job: publish
