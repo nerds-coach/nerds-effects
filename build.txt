@@ -1,0 +1,64 @@
+NERDS Effects 0.24.1 for Windows x64 (x86_64-pc-windows-msvc)
+==> cargo build (x86_64-pc-windows-msvc)
+[1m[93mwarning[0m[1m[97m: unused field `repository` in `workspace.package`[0m
+  [1m[96m--> [0mCargo.toml:11:1
+   [1m[96m|[0m
+[1m[96m11[0m [1m[96m|[0m repository = "https://github.com/storytold/effectcraft"
+   [1m[96m|[0m [1m[93m^^^^^^^^^^[0m
+   [1m[96m|[0m
+   [1m[96m= [0m[1m[97mnote[0m: `cargo::unused_workspace_package_fields` is set to `warn` by default
+[1m[96mhelp[0m: consider removing the field `workspace.package.repository`
+[1m[93mwarning[0m: workspace (manifest) generated 1 warning
+[1m[92m    Updating[0m crates.io index
+[1m[92m   Compiling[0m effectcraft-geom v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\geom)
+[1m[92m   Compiling[0m effectcraft-color v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\color)
+[1m[92m   Compiling[0m effectcraft-time v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\time)
+[1m[92m   Compiling[0m effectcraft-segment v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\segment)
+[1m[92m   Compiling[0m effectcraft-keyframe v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\keyframe)
+[1m[92m   Compiling[0m effectcraft-raster v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\raster)
+[1m[92m   Compiling[0m effectcraft-model v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\model)
+[1m[92m   Compiling[0m effectcraft-project v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\project)
+[1m[92m   Compiling[0m effectcraft-track v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\track)
+[1m[92m   Compiling[0m effectcraft-path v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\path)
+[1m[92m   Compiling[0m effectcraft-text v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\text)
+[1m[92m   Compiling[0m effectcraft-effects v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\effects)
+[1m[92m   Compiling[0m effectcraft-svg v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\svg)
+[1m[92m   Compiling[0m effectcraft-pdf v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\pdf)
+[1m[92m   Compiling[0m effectcraft-render v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\render)
+[1m[92m   Compiling[0m effectcraft-psd v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\psd)
+[1m[92m   Compiling[0m effectcraft-sam2 v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\sam2)
+[1m[92m   Compiling[0m effectcraft-aep v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\aep)
+[1m[92m   Compiling[0m effectcraft-lottie v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\lottie)
+[1m[92m   Compiling[0m effectcraft-interchange v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\interchange)
+[1m[92m   Compiling[0m effectcraft-engine v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\engine)
+[1m[92m   Compiling[0m effectcraft-ui-egui v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\ui-egui)
+[1m[92m   Compiling[0m effectcraft-opusenc v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\opusenc)
+[1m[92m   Compiling[0m effectcraft-vp9enc v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\vp9enc)
+[1m[92m   Compiling[0m effectcraft-hevcenc v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\hevcenc)
+[1m[92m   Compiling[0m effectcraft-av1enc v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\av1enc)
+[1m[92m   Compiling[0m effectcraft-export v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\export)
+[1m[92m   Compiling[0m effectcraft-media v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\media)
+[1m[92m   Compiling[0m effectcraft-script v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\script)
+[1m[92m   Compiling[0m effectcraft-plugin v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\plugin)
+[1m[92m   Compiling[0m effectcraft-expr v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\expr)
+[1m[92m   Compiling[0m effectcraft-gpu v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\gpu)
+[1m[92m   Compiling[0m effectcraft-helper-host v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\helper-host)
+[1m[92m   Compiling[0m effectcraft v0.24.1 (D:\a\nerds-effects\nerds-effects\apps\effectcraft)
+[1m[92m   Compiling[0m effectcraft-host v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\host)
+[1m[92m   Compiling[0m effectcraft-automation v0.24.1 (D:\a\nerds-effects\nerds-effects\crates\automation)
+[1m[92m   Compiling[0m effectcraft-cli v0.24.1 (D:\a\nerds-effects\nerds-effects\apps\effectcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 22m 23s
+ok effectcraft.exe: x64, PE subsystem 2
+ok effectcraft-cli.exe: x64, PE subsystem 3
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-effects\nerds-effects\target\windows-package\x64\effectcraft.exe, D:\a\nerds-effects\nerds-effects\target\windows-package\x64\effectcraft-cli.exe
+==> wix build
+PASS EffectCraft: 24 scope cases, folder preservation, action sequencing and registry contract. No installation performed.
+::warning::Windows signing secrets not set (WINDOWS_CERTIFICATE or AZURE_*): leaving unsigned: D:\a\nerds-effects\nerds-effects\dist\release\effectcraft-0.24.1-windows-x64.msi
+==> effectcraft-cli --version
+effectcraft-cli 0.24.1
+
+[32;1mName                                       [0m[32;1m   Length[0m
+[32;1m----                                       [0m [32;1m  ------[0m
+effectcraft-0.24.1-windows-x64.msi          64266240
+effectcraft-0.24.1-windows-x64-portable.zip 85422633
+
