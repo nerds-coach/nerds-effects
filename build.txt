@@ -1,0 +1,73 @@
+::warning::macOS: ad-hoc signing (no MACOS_SIGN_IDENTITY); artifacts are not notarized
+==> EffectCraft 0.24.1 for macOS (universal), identity: -, notarize: 0
+[1m[33mwarning[0m[1m: unused field `repository` in `workspace.package`[0m
+  [1m[94m--> [0mCargo.toml:11:1
+   [1m[94m|[0m
+[1m[94m11[0m [1m[94m|[0m repository = "https://github.com/storytold/effectcraft"
+   [1m[94m|[0m [1m[33m^^^^^^^^^^[0m
+   [1m[94m|[0m
+   [1m[94m= [0m[1mnote[0m: `cargo::unused_workspace_package_fields` is set to `warn` by default
+[1m[96mhelp[0m: consider removing the field `workspace.package.repository`
+[1m[33mwarning[0m: workspace (manifest) generated 1 warning
+[1m[92m    Updating[0m crates.io index
+[1m[92m   Compiling[0m effectcraft-geom v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/geom)
+[1m[92m   Compiling[0m effectcraft-color v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/color)
+[1m[92m   Compiling[0m effectcraft-time v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/time)
+[1m[92m   Compiling[0m effectcraft-keyframe v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/keyframe)
+[1m[92m   Compiling[0m effectcraft-raster v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/raster)
+[1m[92m   Compiling[0m effectcraft-segment v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/segment)
+[1m[92m   Compiling[0m effectcraft-project v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/project)
+[1m[92m   Compiling[0m effectcraft-track v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/track)
+[1m[92m   Compiling[0m effectcraft-effects v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/effects)
+[1m[92m   Compiling[0m effectcraft-path v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/path)
+[1m[92m   Compiling[0m effectcraft-text v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/text)
+[1m[92m   Compiling[0m effectcraft-model v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/model)
+[1m[92m   Compiling[0m effectcraft-render v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/render)
+[1m[92m   Compiling[0m effectcraft-svg v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/svg)
+[1m[92m   Compiling[0m effectcraft-pdf v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/pdf)
+[1m[92m   Compiling[0m effectcraft-ui-egui v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/ui-egui)
+[1m[92m   Compiling[0m effectcraft-psd v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/psd)
+[1m[92m   Compiling[0m effectcraft-sam2 v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/sam2)
+[1m[92m   Compiling[0m effectcraft-interchange v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/interchange)
+[1m[92m   Compiling[0m effectcraft-lottie v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/lottie)
+[1m[92m   Compiling[0m effectcraft-aep v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/aep)
+[1m[92m   Compiling[0m effectcraft v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/apps/effectcraft)
+[1m[92m   Compiling[0m effectcraft-av1enc v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/av1enc)
+[1m[92m   Compiling[0m effectcraft-engine v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/engine)
+[1m[92m   Compiling[0m effectcraft-opusenc v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/opusenc)
+[1m[92m   Compiling[0m effectcraft-hevcenc v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/hevcenc)
+[1m[92m   Compiling[0m effectcraft-vp9enc v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/vp9enc)
+[1m[92m   Compiling[0m effectcraft-export v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/export)
+[1m[92m   Compiling[0m effectcraft-script v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/script)
+[1m[92m   Compiling[0m effectcraft-plugin v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/plugin)
+[1m[92m   Compiling[0m effectcraft-media v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/media)
+[1m[92m   Compiling[0m effectcraft-expr v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/expr)
+[1m[92m   Compiling[0m effectcraft-gpu v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/gpu)
+[1m[92m   Compiling[0m effectcraft-helper-host v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/helper-host)
+[1m[92m   Compiling[0m effectcraft-host v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/host)
+[1m[92m   Compiling[0m effectcraft-automation v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/crates/automation)
+[1m[92m   Compiling[0m effectcraft-cli v0.24.1 (/Users/runner/work/nerds-effects/nerds-effects/apps/effectcraft-cli)
+[1m[92m    Finished[0m `release` profile [optimized] target(s) in 26m 57s
+Architectures in the fat file: /Users/runner/work/nerds-effects/nerds-effects/target/macos-package/bin/effectcraft are: x86_64 arm64 
+Architectures in the fat file: /Users/runner/work/nerds-effects/nerds-effects/target/macos-package/bin/effectcraft-cli are: x86_64 arm64 
+==> assembling /Users/runner/work/nerds-effects/nerds-effects/target/macos-package/NERDS Effects.app
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/NERDS Effects.app/Contents/Info.plist: OK
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/NERDS Effects.app/Contents/MacOS/EffectCraft: replacing existing signature
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/NERDS Effects.app: replacing existing signature
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/NERDS Effects.app: valid on disk
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/NERDS Effects.app: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-effects/nerds-effects/dist/release/effectcraft-0.24.1-macos-universal.dmg
+2 images written to /Users/runner/work/nerds-effects/nerds-effects/target/macos-package/dmg/.background/background.tiff.
+created: /Users/runner/work/nerds-effects/nerds-effects/dist/release/effectcraft-0.24.1-macos-universal.dmg
+/Users/runner/work/nerds-effects/nerds-effects/dist/release/effectcraft-0.24.1-macos-universal.dmg: valid on disk
+/Users/runner/work/nerds-effects/nerds-effects/dist/release/effectcraft-0.24.1-macos-universal.dmg: satisfies its Designated Requirement
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/dmg-check/NERDS Effects.app: valid on disk
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/dmg-check/NERDS Effects.app: satisfies its Designated Requirement
+==> building /Users/runner/work/nerds-effects/nerds-effects/dist/release/effectcraft-cli-0.24.1-macos-universal.zip
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/effectcraft-cli-0.24.1-macos-universal/effectcraft-cli: replacing existing signature
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/effectcraft-cli-0.24.1-macos-universal/effectcraft-cli: valid on disk
+/Users/runner/work/nerds-effects/nerds-effects/target/macos-package/effectcraft-cli-0.24.1-macos-universal/effectcraft-cli: satisfies its Designated Requirement
+effectcraft-cli 0.24.1
+==> done
+-rw-r--r--@ 1 runner  staff    76M Nov 18 19:26 /Users/runner/work/nerds-effects/nerds-effects/dist/release/effectcraft-0.24.1-macos-universal.dmg
+-rw-r--r--  1 runner  staff    74M Nov 18 19:26 /Users/runner/work/nerds-effects/nerds-effects/dist/release/effectcraft-cli-0.24.1-macos-universal.zip
